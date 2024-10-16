@@ -4,19 +4,29 @@ body {
 }
 
 #weather {
-  padding: 100px;
+  padding: 50px;
 }
 #weather .box {
+  width: 230px;
+  height: 380px;
+  border: 1px solid #a86813;
   border-radius: 20px;
   background-color: #a86813;
   color: #ffffff;
 }
+#weather .box h1, #weather .box h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
 #weather .box input {
   border-radius: 20px;
+  padding: 8px;
+  width: 160px;
 }
-#weather .box div {
+#weather .box #btn {
   border: 1px solid #a86813;
   border-radius: 20px;
-  background-color: #a86813;
-  padding: 6px 10px;
+  background-color: #599925;
+  padding: 10px 30px;
+  margin: 20px 55px;
 }/*# sourceMappingURL=style.css.map */
