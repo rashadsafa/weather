@@ -1,4 +1,22 @@
 body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
+}
+
+#weather {
+  padding: 100px;
+}
+#weather .box {
+  border-radius: 20px;
+  background-color: #a86813;
+  color: #ffffff;
+}
+#weather .box input {
+  border-radius: 20px;
+}
+#weather .box div {
+  border: 1px solid #a86813;
+  border-radius: 20px;
+  background-color: #a86813;
+  padding: 6px 10px;
 }/*# sourceMappingURL=style.css.map */
