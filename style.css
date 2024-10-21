@@ -7,34 +7,25 @@ body {
   padding: 100px 0;
 }
 #weather .box {
-  width: 230px;
-  height: 380px;
+  width: 200px;
+  height: 340px;
   border: 1px solid #9c6644;
   border-radius: 20px;
   background-color: #9c6644;
   color: #ffffff;
 }
 #weather .box h1, #weather .box h2 {
-  font-size: 23px;
+  font-size: 20px;
   margin: 20px 0;
 }
 #weather .box input {
   border-radius: 20px;
-  padding: 8px;
+  padding: 7px;
   width: 140px;
 }
 #weather .box #btn {
   border-radius: 20px;
   background-color: #f8c471;
-  padding: 10px 20px;
-  margin: 20px 65px;
-}
-@media screen and (min-width: 768px) {
-  #weather .box {
-    width: 340px;
-    height: 500px;
-  }
-  #weather .box #btn {
-    margin: 20px 120px;
-  }
+  padding: 8px 20px;
+  margin: 20px 50px;
 }/*# sourceMappingURL=style.css.map */
